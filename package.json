@@ -1,0 +1,27 @@
+{
+  "name": "applicationstartupperformancedemo",
+  "version": "1.0.0",
+  "description": "UI5 Best Practises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramprasadgs/ApplicationStartupPerformanceDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramprasadgs/ApplicationStartupPerformanceDemo/issues"
+  },
+  "homepage": "https://github.com/ramprasadgs/ApplicationStartupPerformanceDemo#readme",
+  "dependencies": {
+    "@openui5/sap.m": "^1.60.2",
+    "@openui5/sap.ui.commons": "^1.60.2",
+    "@openui5/sap.ui.core": "^1.60.2",
+    "@openui5/sap.ui.table": "^1.60.2",
+    "@openui5/sap.ui.ux3": "^1.60.2",
+    "@openui5/themelib_sap_belize": "^1.60.2"
+  }
+}
