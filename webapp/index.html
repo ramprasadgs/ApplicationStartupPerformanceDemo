@@ -18,7 +18,17 @@
 	    jQuery.sap.require('LatencyDemo.util.File1');
 	    jQuery.sap.require('sap.ui.core.mvc.XMLView');
 
-	    new sap.ui.xmlview({viewName:"LatencyDemo.view.View1"}).placeAt("content");
+      sap.ui.getCore().attachInit(function() {
+        sap.ui.require(['sap/ui/core/mvc/View'],function(View){
+          View.create({
+            viewName:"LatencyDemo.view.View1",
+            type:"XML",
+            async:true
+          }).then(function(oView){
+            oView.placeAt("content");
+          })
+        });
+		   });
 
     </script>
 </head>
