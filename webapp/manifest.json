@@ -68,6 +68,19 @@
 			"css": [{
 				"uri": "css/style.css"
 			}]
-		}
+		},
+		"routing": {
+         "config": {
+            "routerClass": "sap.m.routing.Router",
+            "viewType": "XML",
+            "viewPath": "LatencyDemo.view",
+            "controlId": "app",
+            "controlAggregation": "pages",
+            "transition": "slide",
+            "async": true
+         },
+         "routes": [],
+         "targets": {}
+      }
 	}
 }
