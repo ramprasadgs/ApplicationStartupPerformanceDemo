@@ -1,7 +1,7 @@
 <mvc:View controllerName="LatencyDemo.controller.View1" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
 	<App id="app">
 		<pages>
-			<Page title="Startup Performance Demo" class="sapUiContentPadding" enableScrolling="true">
+			<Page title="Startup Performance Demo" titleLevel="H1" class="sapUiContentPadding" enableScrolling="true">
 				<content>
 					<mvc:XMLView viewName="LatencyDemo.view.Content1"/>
 				</content>
