@@ -1,8 +1,9 @@
 sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/Device",
-	"LatencyDemo/model/models"
-], function(UIComponent, Device, models) {
+	"LatencyDemo/model/models",
+	"LatencyDemo/util/File1"
+], function(UIComponent, Device, models, File1) {
 	"use strict";
 
 	return UIComponent.extend("LatencyDemo.Component", {
